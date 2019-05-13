@@ -16,10 +16,10 @@ toc_sticky: true
 
 This post will show examples of embedding interactive charts produced using [Altair](https://altair-viz.github.io) [Vega-Lite](https://vega.github.io/vega-lite/) and [Holoviews](http://holoviews.org/index.html).
 
-## Altair Chart
+
 Below is an interactive chart of the relationship between Total Population, Percentage of Population from Selection Countries and Boroughs in different neighborhoods in NYC.
 
-
+## Altair Chart
 
 <div id="altair-chart"></div>
 
