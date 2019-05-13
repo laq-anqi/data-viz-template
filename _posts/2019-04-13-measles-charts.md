@@ -5,7 +5,7 @@ published: true
 tags: [dataviz, altair, vega-lite, holoviews]
 excerpt: "Embedding interactive charts on static pages using Jekyll."
 altair-loader:
-  altair-chart: "charts/measlesAltair.json"
+  altair-chart: "charts/neighborhood_chart.json"
 hv-loader:
   holoviews-chart: "charts/measlesHoloviews.html"
 toc: true
@@ -17,16 +17,11 @@ This post will show examples of embedding interactive charts produced using [Alt
 
 ## Altair Example
 
-Below is a chart of the incidence of measles since 1928 for the 50 US states.
+Below is an interactive chart of the relationship between Total Population, Percentage of Population from Selection Countries and Boroughs in different neighborhoods in NYC.
 
 <div id="altair-chart"></div>
 
-This was produced using Altair and embedded in this static web page. Note that you can also display Python code on this page:
-
-```python
-import altair as alt
-alt.renderers.enable('notebook')
-```
+This was produced using Altair and embedded in this static web page.
 
 ## Holoviews Example
 
