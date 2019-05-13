@@ -1,8 +1,8 @@
 ---
-title: "1 Chart, 3 Libraries"
-date: 2019-04-13
+title: "Interactive Neighborhood & Restaurant Charts "
+date: 2019-05-12
 published: true
-tags: [dataviz, altair, vega-lite, observable, holoviews]
+tags: [dataviz, altair, vega-lite, holoviews]
 excerpt: "Embedding interactive charts on static pages using Jekyll."
 altair-loader:
   altair-chart: "charts/measlesAltair.json"
